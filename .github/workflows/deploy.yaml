@@ -18,7 +18,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{secrets.SSH_HOST}}
-          username: kakarot
+          username: ashritapandey685
           key: ${{secrets.SSH_KEY}}
           script: |
             cd /home/ashritapandey685/demo
