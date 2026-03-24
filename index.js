@@ -4,7 +4,7 @@ import express from "express"
 const app=express()
 
 app.get("/",(req,res)=>{
-    return res.json({msg:"kya haal chal miiitrr"})
+    return res.json({msg:"kya haal chal miiitrr , sab thik hi hoga"})
 })
 
 
